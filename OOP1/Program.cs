@@ -11,7 +11,7 @@ namespace OOP1
         static void Main(string[] args)
         {
             Person me = new Person("David");
-            me.FavoriteMovie = "Bill and Ted";
+            me.SetFavoriteMovie("Bill and Ted");
             Person friend = new Person("George");
             Console.WriteLine(me);
             Console.WriteLine(friend);
