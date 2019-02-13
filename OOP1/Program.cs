@@ -11,10 +11,11 @@ namespace OOP1
         static void Main(string[] args)
         {
             Person me = new Person("David");
-            me.SetFavoriteMovie("Bill and Ted");
-            Person friend = new Person("George");
             Console.WriteLine(me);
-            Console.WriteLine(friend);
+            // TODO: Look at Person.cs and try using the other constructors and methods here
+
+
+
             Console.ReadKey();
         }
     }
